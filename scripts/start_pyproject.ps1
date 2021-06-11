@@ -7,8 +7,6 @@ gh repo create $project_name --confirm --public --template tomazellifelipe/pytho
 
 git pull origin main
 
-git branch -M main
-
 python -m venv .venv
 
 .\.venv\Scripts\Activate.ps1
